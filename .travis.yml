@@ -3,6 +3,8 @@ lanugage: python
 python:
   - "3.9.1"
 script:
-  - python3 index.py
+  - python3 main.py
 after_success:
   - echo "SUCCESS" 
+after_failure:
+  - echo "FAILURE"
