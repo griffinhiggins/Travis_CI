@@ -1,6 +1,6 @@
 [user]
-  name = Griffin Higgins
-  email = griffin.higgins@outlook.com
+  name = Griffin
+  email = griffin.higgins@unb.ca
 
 [core]
   editor = nvim
@@ -15,7 +15,7 @@
   defaultBranch = main
 
 [include]
-  path = /Users/griffinhiggins/.dotfiles/.delta/themes.config
+  path = /home/griffin/.dotfiles/.delta/themes.config
 
 [interactive]
   diffFilter = delta --color-only
@@ -28,3 +28,9 @@
 
 [diff]
   colorMoved = default
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/Cellar/gh/2.21.2/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/Cellar/gh/2.21.2/bin/gh auth git-credential
