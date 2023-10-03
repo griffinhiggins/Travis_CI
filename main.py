@@ -1,3 +1,3 @@
 import index
 
-print(index.foo("this is a red string"))
+print(index.foo("changed this string :)"))
